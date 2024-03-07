@@ -1,0 +1,207 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color:rgb(0, 0, 0);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: aliceblue;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+nav al {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav al il {
+    float: left;
+}
+
+nav al il a {
+    color: rgb(28, 20, 94);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav al il a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: 'comic sans-ms';
+    color: rgb(10, 10, 85);
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: rgb(10, 10, 85);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: rgb(207, 10, 10);
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: rgb(10, 10, 85);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: rgb(207, 10, 10);
+    text-decoration: none;
+}
+
+.img-kecil {
+    width: 50%;
+    margin: 100px;
+  }
+
+.img-edu {
+    width: 100%;
+    margin: 20px;
+    border: 50px black;
+  }
+
+.img-contact {
+    width: 60%;
+    margin: 10px;
+  }
+
+p {
+    margin: 1px 0px 1px 0px;
+    padding: 1px 0px 1px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.certi-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certi-list img {
+    width: 100%;
+    border: 10px black;
+    margin: 10px;
+}
+
+#Contact {
+    background-color: aliceblue;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    line-height: 50%;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    line-height: 50%;
+}
+
+#Copyright {
+    text-align: center;
+    width: 100%;
+    padding: 1px 0px 1px 0px;
+    margin-top: 10px;
+}
